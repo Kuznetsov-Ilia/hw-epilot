@@ -48,11 +48,11 @@ npm run dev
 
 
 ## Technologies Used
-- React: JavaScript library for building user interfaces.
-- Vite: Fast and opinionated web development build tool.
-- Tailwind CSS: Utility-first CSS framework.
-- Fetch API: Browser API for making HTTP requests.
-- Vitest: Testing framework
+- React: defined by task.
+- Vite: fast and standard for now.
+- Tailwind CSS: simplest.
+- Fetch API: simplest.
+- Vitest: fast, jest compatible.
 
 ## Development Environment
 - Preferred Editor: Visual Studio Code
@@ -70,3 +70,22 @@ npm run dev
 - debounce on the input on the search screen
 - test coverage close to 100%
 - cache invalidation strategy
+
+
+## Codespaces
+you make want to open the project without installing dependancies:
+![open opts](docs/openin.png)
+there are only 2 tested options here: vscode and browser
+
+### In browser
+Make sure your local port 3000 is forwarded
+
+![in browser](docs/image.png)
+
+### test explorer
+the easiest way to see all the test:
+![tests](docs/tests.png)
+
+### troubleshouting
+if for some reasons codespaces does not work for you and you are still obsessed with the idea you need it, here are the docs:
+https://docs.github.com/en/codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace
