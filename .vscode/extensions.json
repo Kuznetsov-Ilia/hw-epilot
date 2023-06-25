@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "heybourn.headwind",
+    "xabikos.javascriptsnippets",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "jawandarajbir.react-vscode-extension-pack",
+    "xabikos.reactsnippets",
+    "bradlc.vscode-tailwindcss",
+    "zixuanchen.vitest-explorer"
+  ]
+}
