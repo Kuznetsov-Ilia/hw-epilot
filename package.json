@@ -1,6 +1,6 @@
 {
   "name": "epilot-homework",
-  "website": "https://kuznetsov-ilia.github.io/hw-epilot",
+  "homepage": "https://kuznetsov-ilia.github.io/hw-epilot",
   "private": false,
   "version": "1.0.1",
   "type": "module",
