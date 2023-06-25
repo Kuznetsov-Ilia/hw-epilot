@@ -7,6 +7,7 @@ This is a small React app that displays the public repositories of a GitHub user
 - User Search Page: Allows users to search for GitHub users by their username.
 - User Result Page: Displays user information, including user photo, username, repositories count, and a list of paginated repositories.
 - Pagination: Repositories are displayed in a paginated manner, with a configurable number of repositories per page.
+- Caching: To optimize API usage and avoid reaching the limit of GitHub API rate, all requests are cached in IndexedDB or LocalStorage. This caching mechanism helps reduce unnecessary API calls by storing the fetched data locally, allowing for faster subsequent retrievals and a smoother user experience.
 
 
 ## Prerequisites
@@ -68,3 +69,4 @@ npm run dev
 - e2e tests for pages (unit tests are not that good in long perspective)
 - debounce on the input on the search screen
 - test coverage close to 100%
+- cache invalidation strategy
