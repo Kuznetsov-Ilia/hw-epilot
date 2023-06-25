@@ -10,7 +10,7 @@ export default function UserRepos({
   return isLoading ? (
     <Spinner />
   ) : repos.length > 0 ? (
-    <ol className="flex flex-row flex-wrap gap-4 mt-5 text-black list-style-none">
+    <ol className="flex flex-row flex-wrap justify-center gap-4 mt-5 text-black list-style-none">
       {repos.map((repo) => (
         <li key={repo.name} className="flex">
           <div className="w-56 p-3 border-2 rounded bg-gray">
