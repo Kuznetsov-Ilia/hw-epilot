@@ -89,3 +89,7 @@ the easiest way to see all the test:
 ### troubleshouting
 if for some reasons codespaces does not work for you and you are still obsessed with the idea you need it, here are the docs:
 https://docs.github.com/en/codespaces/developing-in-codespaces/forwarding-ports-in-your-codespace
+
+## Stackblitz
+there is one more option https://stackblitz.com/github/Kuznetsov-Ilia/hw-epilot/
+![stackblitz](docs/stackblitz.png)
